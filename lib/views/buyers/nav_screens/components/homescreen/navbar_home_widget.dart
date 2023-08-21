@@ -17,15 +17,13 @@ class NavbarHomeWidget extends StatelessWidget {
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
-          Text(
+          const Text(
             'Hii , What are you \n Looking For?',
             style: TextStyle(fontSize: 19, fontWeight: FontWeight.bold),
           ),
-          Container(
-            child: SvgPicture.asset(
-              'assets/icons/cart.svg',
-              width: 20,
-            ),
+          SvgPicture.asset(
+            'assets/icons/cart.svg',
+            width: 20,
           )
         ],
       ),

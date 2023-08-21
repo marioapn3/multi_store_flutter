@@ -1,4 +1,3 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 
@@ -10,7 +9,7 @@ class SearchHomeWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: EdgeInsets.only(
+      padding: const EdgeInsets.only(
         left: 25,
         right: 15,
       ),
@@ -21,7 +20,7 @@ class SearchHomeWidget extends StatelessWidget {
               fillColor: Colors.white,
               filled: true,
               hintText: 'Search For Product',
-              border: OutlineInputBorder(
+              border: const OutlineInputBorder(
                 borderSide: BorderSide.none,
               ),
               prefixIcon: Padding(

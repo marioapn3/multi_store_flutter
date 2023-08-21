@@ -12,12 +12,12 @@ class HomeScreen extends StatelessWidget {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        NavbarHomeWidget(),
-        SizedBox(
+        const NavbarHomeWidget(),
+        const SizedBox(
           height: 14,
         ),
-        SearchHomeWidget(),
-        BannerWidget(),
+        const SearchHomeWidget(),
+        const BannerWidget(),
         CategoryText(),
       ],
     );

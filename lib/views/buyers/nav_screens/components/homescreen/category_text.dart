@@ -1,4 +1,3 @@
-import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 
 class CategoryText extends StatelessWidget {
@@ -21,7 +20,7 @@ class CategoryText extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Text(
+          const Text(
             'Category',
             style: TextStyle(fontSize: 19),
           ),
@@ -41,7 +40,7 @@ class CategoryText extends StatelessWidget {
                           onPressed: () {},
                           label: Text(
                             _categoryText[index],
-                            style: TextStyle(
+                            style: const TextStyle(
                               color: Colors.white,
                             ),
                           ),
@@ -53,7 +52,7 @@ class CategoryText extends StatelessWidget {
                 ),
                 IconButton(
                   onPressed: () {},
-                  icon: Icon(Icons.arrow_forward),
+                  icon: const Icon(Icons.arrow_forward),
                 )
               ],
             ),

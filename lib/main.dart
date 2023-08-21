@@ -1,7 +1,7 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:multi_store_udemy/views/buyers/main_screen.dart';
+import 'package:multi_store_udemy/views/buyers/auth/register_screen.dart';
 
 import 'firebase_options.dart';
 
@@ -29,7 +29,7 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
         fontFamily: 'Brand-Bold',
       ),
-      home: const MainScreen(),
+      home: const RegisterScreen(),
     );
   }
 }
